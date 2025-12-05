@@ -1,74 +1,107 @@
-/* Global Page Style */
+/* Page background */
 body {
   margin: 0;
-  padding: 0;
   font-family: "Poppins", sans-serif;
-  background: #f0f2f5;
+  background: #141414;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-}
-
-/* Container */
-.container {
-  background: #ffffff;
-  width: 320px;
-  padding: 30px;
-  border-radius: 12px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
-  text-align: center;
-}
-
-h2 {
-  margin-bottom: 20px;
-  color: #333;
-}
-
-/* Input Fields */
-input[type="text"],
-input[type="email"],
-input[type="password"] {
-  width: 90%;
-  padding: 12px;
-  margin: 10px 0;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  outline: none;
-  font-size: 14px;
-  transition: 0.3s;
-}
-
-input:focus {
-  border-color: #4A90E2;
-}
-
-/* Buttons */
-button {
-  width: 95%;
-  padding: 12px;
-  background: #4A90E2;
   color: white;
+}
+
+/* Main card */
+.container {
+  background: #1f1f1f;
+  width: 400px;
+  padding: 35px;
+  border-radius: 18px;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+}
+
+/* Title */
+h2 {
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 28px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #bdbdbd;
+  margin-bottom: 25px;
+}
+
+/* Input labels */
+label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  display: block;
+  color: #d3d3d3;
+}
+
+/* Text inputs */
+input,
+select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 18px;
   border: none;
-  border-radius: 8px;
+  border-radius: 10px;
+  background: #2c2c2c;
+  color: white;
+  font-size: 14px;
+  outline: none;
+}
+
+input::placeholder {
+  color: #757575;
+}
+
+/* Two-column section */
+.row {
+  display: flex;
+  gap: 10px;
+}
+
+/* Checkbox row */
+.checkbox-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.checkbox-row label {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-row input[type="checkbox"] {
+  width: auto;
+  margin-right: 6px;
+}
+
+/* Sign up button */
+button {
+  width: 100%;
+  padding: 14px;
+  background: #2d00f7;
+  border: none;
+  border-radius: 10px;
+  color: white;
   font-size: 16px;
-  margin-top: 15px;
   cursor: pointer;
   transition: 0.3s;
 }
 
 button:hover {
-  background: #357ABD;
+  background: #1b00a5;
 }
 
-/* Link Text */
-p {
-  font-size: 14px;
-  color: #555;
-}
-
+/* Link */
 a {
-  color: #4A90E2;
+  color: #4a8bff;
   text-decoration: none;
 }
 
