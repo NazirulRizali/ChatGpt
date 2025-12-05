@@ -1,22 +1,57 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
   <title>Sign Up</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <div class="container">
-  <h2>Create Account</h2>
+  
+  <h2>Create Your Account</h2>
+  <p class="subtitle">Join us today and get started in seconds.</p>
 
-  <input type="text" placeholder="Full Name" required>
-  <input type="email" placeholder="Email" required>
-  <input type="password" placeholder="Password" required>
-  <input type="password" placeholder="Confirm Password" required>
+  <label>Full Name</label>
+  <input type="text" placeholder="e.g., John Doe">
+
+  <label>Email Address</label>
+  <input type="email" placeholder="you@example.com">
+
+  <label>Password</label>
+  <input type="password" placeholder="Must be 8+ characters">
+
+  <div class="row">
+    <div>
+      <label>Age</label>
+      <input type="number" placeholder="18+" min="1">
+    </div>
+
+    <div>
+      <label>Country</label>
+      <select>
+        <option>Select your country</option>
+        <option>Malaysia</option>
+        <option>Singapore</option>
+        <option>Indonesia</option>
+        <option>Thailand</option>
+        <option>Philippines</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="checkbox-row">
+    <label><input type="checkbox"> I agree to the <a href="#">Terms</a></label>
+    <label><input type="checkbox"> Remember Me</label>
+  </div>
 
   <button>Sign Up</button>
 
-  <p>Already have an account? <a href="index.html">Log in here</a></p>
+  <p style="text-align:center; margin-top:15px;">
+    Already have an account?
+    <a href="index.html">Log in</a>
+  </p>
+
 </div>
 
 </body>
