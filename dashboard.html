@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SafeRent Car - Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+    <div class="logo"><span class="highlight">SafeRent</span> Car</div>
+
+    <ul class="nav-links">
+        <li><a href="#">My Bookings</a></li>
+        <li><a href="#">Support</a></li>
+        <li><button class="logout-btn" onclick="window.location.href='index.html'">Logout</button></li>
+    </ul>
+</nav>
+
+<!-- SEARCH CARD -->
+<section class="search-section">
+    <div class="search-card">
+        <h2>Find Your Perfect Ride</h2>
+
+        <div class="form-row">
+            <div class="form-group">
+                <label>Pick-up Location</label>
+                <input type="text" placeholder="Kuala Lumpur International Airport (KUL)">
+            </div>
+
+            <div class="form-group">
+                <label>Pick-up Date</label>
+                <input type="datetime-local">
+            </div>
+
+            <div class="form-group">
+                <label>Drop-off Date</label>
+                <input type="datetime-local">
+            </div>
+        </div>
+
+        <button class="search-btn">Search for Cars</button>
+    </div>
+</section>
+
+<!-- EXCLUSIVE OFFERS -->
+<section class="offers-section">
+    <h2>Exclusive Offers</h2>
+    <hr class="divider">
+
+    <div class="offer-container">
+
+        <!-- Offer 1 -->
+        <div class="offer-card">
+            <h3>Economy Car</h3>
+            <p class="subtitle">Weekend Special</p>
+            <p class="desc">Save 20% on any economy class vehicle for 3-day rentals.</p>
+            <a href="#" class="book-link">Book Now →</a>
+        </div>
+
+        <!-- Offer 2 -->
+        <div class="offer-card">
+            <h3>SUV Vehicle</h3>
+            <p class="subtitle">Family Adventure</p>
+            <p class="desc">15% off all SUVs and minivans for rentals over 5 days.</p>
+            <a href="#" class="book-link">Book Now →</a>
+        </div>
+
+        <!-- Offer 3 -->
+        <div class="offer-card">
+            <h3>Luxury Sedan</h3>
+            <p class="subtitle">Premium Travel</p>
+            <p class="desc">Upgrade to a luxury sedan at the price of a standard car.</p>
+            <a href="#" class="book-link">Book Now →</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- FOOTER -->
+<footer>
+    © 2025 SafeRent Car. All rights reserved. |
+    <a href="#">Privacy Policy</a>
+</footer>
+
+</body>
+</html>
